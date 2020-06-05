@@ -1,0 +1,273 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*navbar Css start*/
+
+.nav-link {
+    color: #464141 !important;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.active {
+    color: black;
+}
+
+
+/*navbar Css End*/
+
+
+/*slider Css start*/
+
+.bg-custom {
+    background: #ffb3c0;
+    padding: 30px;
+}
+
+.slider-inner-content {
+    padding-left: 10px;
+}
+
+#slider-part .carousel-inner .slider-inner-content .slider-inner-content-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 501;
+    color: #515050;
+    letter-spacing: 2px;
+    padding-top: 60px;
+}
+
+#slider-part .carousel-inner .slider-inner-content .slider-inner-content-description {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #515050;
+    line-height: 24px;
+}
+
+#slider-part .carousel-inner .slider-inner-content .slider-inner-content-price {
+    font-size: 33px;
+    text-transform: capitalize;
+    font-weight: 501;
+    color: #ff006cd9;
+    padding-bottom: 15px;
+}
+
+#slider-part .carousel-inner .slider-inner-content .slider-inner-content-btn {
+    text-transform: capitalize;
+    background: #ff006cd9;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+#slider-part .carousel-inner .slider-image-area img {
+    max-width: 300px;
+}
+
+
+/*slider Css End*/
+
+
+/*features-cat Css start*/
+
+#features-cat-part {
+    margin-top: 35px;
+}
+
+#features-cat-part .features-cat-item {
+    background: linear-gradient(#dbdb52, #d28c06);
+    padding: 0px 42px;
+    border-radius: 10px;
+}
+
+#features-cat-part .features-cat-item-two {
+    background: linear-gradient(#e6016c, #d77eb0);
+    padding: 0px 42px;
+    border-radius: 10px;
+}
+
+#features-cat-part .features-cat-item-three {
+    background: linear-gradient(#0b31ff, #397ae1);
+    padding: 0px 42px;
+    border-radius: 10px;
+}
+
+#features-cat-part .features-cat-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
+    padding-top: 34px;
+    padding-left: 0px;
+    margin-left: -26px;
+}
+
+.features-cat-images {
+    margin-bottom: 0px;
+}
+
+#features-cat-part .features-cat-images img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*features-cat Css End*/
+
+
+/*shoes-product-area start*/
+
+.shoes-product-item-card {
+    margin-bottom: 45px;
+}
+
+.card {
+    width: 18rem;
+    box-shadow: 0px 0px 2px #666666;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 501;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.card-text {
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.card-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+}
+
+.btn-card-custom {
+    text-transform: capitalize;
+    background: #ff006cd9;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.btn-card-custom:hover {
+    color: #fff;
+}
+
+#shoes-product-area {
+    margin-top: 50px;
+}
+
+.shoes-product-title .shoes-product-title-h2 {
+    font-size: 33px;
+}
+
+
+/*shoes-product-area End*/
+
+
+/*subscribtion-area End*/
+
+#subscribtion-area {
+    background: pink;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+
+.custom-subcription-input {
+    width: 276px;
+    margin: 0 auto;
+}
+
+.custom-subcription-btn {
+    text-transform: capitalize;
+    background: #ff006cd9;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+.custom-subcription-btn:hover {
+    color: #fff;
+}
+
+.subcription-area-content-title {
+    font-family: roboto, bold;
+    font-size: 27px;
+    font-weight: 550;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.subcription-area-content-sub-title {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.custom-subcription-btn {
+    margin-top: 10px;
+    margin-right: 191px;
+}
+
+
+/*subscribtion-area End*/
+
+
+/*footer-area End*/
+
+.footer-area-content-copyright {
+    font-size: 16px;
+    color: #666666;
+    text-transform: capitalize;
+}
+
+
+/*footer-area End*/
